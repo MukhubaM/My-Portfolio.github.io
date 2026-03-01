@@ -1,20 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Montserrat:wght@300;400;700&display=swap');
-*{
+
+/* Reset */
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-html{
+
+/* Global styles */
+html {
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
 }
-a{
-    text-decoration: none; 
+
+a {
+    text-decoration: none;
 }
+
+/* Section */
+#one {
+    background: #0f172a;
+}
+
+/* Container */
 .container {
     min-height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Text content */
+.one-content {
+    text-align: center;
+    color: white;
+}
+
+/* Heading */
+.one-content h1 {
+    font-family: 'Lora', serif;
+    font-size: 3.6rem;
+    margin-bottom: 2rem;
+}
+
+/* Button */
+.cta {
+    display: inline-block;
+    padding: 1.2rem 3rem;
+    background: #38bdf8;
+    color: #0f172a;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+.cta:hover {
+    background: #0ea5e9;
 }
