@@ -279,7 +279,7 @@ img{
     max-width: 1500px;
     margin: 0 auto;
     padding: 100px 0;
-    background-color: #bfc22c;
+    background-color: #d6d924;
  }
 
  #services .service-bottom{
@@ -464,7 +464,9 @@ img{
    height: 100%;
    width: 100%;
    position: relative;
-   border: 5px solid rgb(251, 132, 132);
+   border-radius: 16px;
+   overflow: hidden;
+   
 }
 #about .col-left .about-img::after{
    content: '';
@@ -473,7 +475,6 @@ img{
    top: 19px;
    height: 98%;
    width: 98%;
-   border: 7px solid rgb(255, 0, 0);
    z-index: -1;
 }
 
