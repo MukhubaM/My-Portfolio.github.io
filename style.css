@@ -214,15 +214,16 @@ img{
 #one{
     min-height: 100vh;
     background-color: #28a9ee;
-    background-image: url(./img/one.png);
-    background-size: cover;
-    background-position: top center;
+    background-image: url(./img/file_bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
     border-radius: 8px;
     
 }
 
 #one .one{
-    max-width: 1200px;
+    max-width: 1700px;
     margin: 0 auto;
     padding: 0 50px;
     justify-content: flex-start;
@@ -237,6 +238,7 @@ img{
     color: transparent;
     animation: text_reveal .5s ease forwards;
     animation-delay: 1.5s ;
+    white-space: nowrap;
  }
 
  #one h1:nth-child(1){
@@ -272,14 +274,14 @@ img{
 #one h1:nth-child(3) span{
     animation-delay: 3s;
 }
-
+ 
  #services .services {
     flex-direction: column;
     text-align: center;
-    max-width: 1500px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 100px 0;
-    background-color: #0000006b;
+    background-color: #504e4ec6;
     border-radius: 4px;
  }
 
@@ -289,6 +291,7 @@ img{
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
+   text-align: center;
  }
 
  #services .service-item{
@@ -299,7 +302,7 @@ img{
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(./img/1111.jpg);
+    background-image: url(./img/Fullstack.jpg);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
