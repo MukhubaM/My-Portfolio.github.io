@@ -249,7 +249,7 @@ img{
     color: transparent;
     animation: text_reveal .5s ease forwards;
     animation-delay: 1.5s ;
-    white-space: normal;
+    white-space: nowrap;
  }
 
  #one h1:nth-child(1){
